@@ -35,14 +35,14 @@ APP_ENV=production
 If you use a production environment, our package will automatically use tripay's production environment, otherwise it will use tripay's testing environment
 
 ## Available Methods
-|Method|Description|Return|
-|--|--|--|
-| generateSignature()| Create a signature for trasaction | String
-| getInstruksiPembayaran() | Take payment instructions from each channel |String|
-| requestTransaksi() |Request new transactions|Object|
-| getDetailTransaksi() |Show a transaction|Object|
-| getChannelPembayaran() |Take a list of payments that enter the open payment|Object|
-| getTransaksi() |Get your transactions by page |Object|
+1. generateSignature() | Create a signature for transaction | Return : String
+2. getInstruksiPembayaran() | Take payment instructions from each channel | Return : String
+3. requestTransaksi() | Request new transactions | Object
+4. getDetailTransaksi() | Show a transaction | Object
+5. getChannelPembayaran() | Take a list of payments that enter the open payment | Object
+6. getTransaksi() | Get your transactions by page | Object
+
+
 ## generateSignature()
 ```
 $tripay =  new  Tripay();
