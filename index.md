@@ -37,10 +37,10 @@ If you use a production environment, our package will automatically use tripay's
 ## Available Methods
 1. generateSignature() | Create a signature for transaction | Return : String
 2. getInstruksiPembayaran() | Take payment instructions from each channel | Return : String
-3. requestTransaksi() | Request new transactions | Object
-4. getDetailTransaksi() | Show a transaction | Object
-5. getChannelPembayaran() | Take a list of payments that enter the open payment | Object
-6. getTransaksi() | Get your transactions by page | Object
+3. requestTransaksi() | Request new transactions | Return : Object
+4. getDetailTransaksi() | Show a transaction | Return : Object
+5. getChannelPembayaran() | Take a list of payments that enter the open payment | Return : Object
+6. getTransaksi() | Get your transactions by page | Return : Object
 
 
 ## generateSignature()
